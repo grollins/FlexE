@@ -1,5 +1,5 @@
 #! /usr/bin/env python
-from prody import *
+from prody import confProDy, parsePDB, calcTransformation, calcRMSD
 import hamiltonian
 import argparse
 
@@ -19,7 +19,7 @@ def main():
     #Load the structures
     pdb = parsePDB(args.pdb)
     calphas = pdb.select('calpha')
-    ref = prody.parsePDB(args.reference)
+    ref = parsePDB(args.reference)
     ref_alpha = ref.select('calpha')
     #Make sure we are in same reference set
     t = calcTransformation(calphas,ref_alpha)
