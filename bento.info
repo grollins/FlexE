@@ -1,0 +1,6 @@
+Name: FlexE
+Author: Geoff Rollins
+Summary: A tool for comparing protein structures
+
+Library:
+    Packages: flexe
