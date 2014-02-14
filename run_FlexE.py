@@ -5,7 +5,7 @@ import argparse
 
 def main():
     #no log messages:
-    prody.setVerbosity('None')
+    confProDy(verbosity='none')
     # parse command line arguments
     parser = argparse.ArgumentParser(description='Calculate MDENM energies from a pdb \
                                     will calculate energy using modes from pdb\
