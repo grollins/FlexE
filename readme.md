@@ -1,6 +1,11 @@
 # Needed to run FlexE
 
-[Prody package from the Bahar lab](http://www.csb.pitt.edu/ProDy/index.html)
+Download Prody package
+[from the Bahar lab](http://www.csb.pitt.edu/ProDy/index.html)
+
+or
+
+`pip install -r requirements.txt`
 
 # How to execute
     
